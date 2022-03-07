@@ -2,6 +2,16 @@
 
 This repository provides a briefly sample application of using Go/Gin-Web-Framework as server side and TypeScript/React as client side.
 
+## Docker multi-stage building
+
+```
+docker build -t go-react-sample .
+docker run -p 8080:8080 -it go-react-sample
+```
+
+Multi-stage building can reduce the size of final Docker-Image.
+![docker-image-size-example](docker-image-go-react-sample.PNG)
+
 ## Routing
 
 Note : Routing priotity is "Gin-Engine >> React-route" and "implementation by" does not mean "routing by"
