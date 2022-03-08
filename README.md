@@ -43,3 +43,8 @@ Note : Routing priotity is "Gin-Engine >> React-route" and "implementation by" d
 - /\* (no route)
 
   - status 404
+
+# LICENSE
+
+The source code is licensed MIT. 
+see LICENSE.
